@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent{
   year: number;
   constructor(){
-    this.year = new Date().getFullYear() +1;
+    this.year = new Date().getFullYear() + 1;
   }
 
 }
